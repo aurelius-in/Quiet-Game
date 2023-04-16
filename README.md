@@ -1,4 +1,4 @@
-Title: Quiet Game - A Fun Mobile Game App for Kids
+Quiet Game - A Fun Mobile Game App for Kids
 
 Introduction:
 
