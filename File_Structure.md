@@ -3,7 +3,7 @@ app/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── com.example.quietgame/
+│   │   │   ├── com.aa.quietgame/
 │   │   │   │   ├── activities/
 │   │   │   │   │   ├── GameActivity.java
 │   │   │   │   │   ├── LoginActivity.java
