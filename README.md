@@ -29,3 +29,44 @@ Conclusion:
 The Quiet Game app is a fun and engaging way for kids to improve their focus and concentration skills. The game's simple rules, multiplayer mode, customization options, and social sharing features make it an ideal game for kids who enjoy playing mobile games. The app's unique feature of recording each player's profile to train the app on each player playing makes it stand out among other mobile games.
 
 Additionally, the Quiet Game app is a great game for families going on long drives or trips where the sound of children bickering in an enclosed space can become stressful. Playing the Quiet Game can be a fun and healthy way to channel their energy and help them remain calm and focused during the journey. It can also be an effective tool for parents to encourage their children to develop good behavior and discipline while having fun at the same time.
+
+```
+app/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.example.quietgame/
+│   │   │   │   ├── activities/
+│   │   │   │   │   ├── GameActivity.java
+│   │   │   │   │   ├── LoginActivity.java
+│   │   │   │   │   ├── ProfileActivity.java
+│   │   │   │   │   └── SettingsActivity.java
+│   │   │   │   ├── adapters/
+│   │   │   │   │   ├── LeaderboardAdapter.java
+│   │   │   │   │   └── ProfileAdapter.java
+│   │   │   │   ├── models/
+│   │   │   │   │   ├── LeaderboardModel.java
+│   │   │   │   │   └── ProfileModel.java
+│   │   │   │   ├── services/
+│   │   │   │   │   ├── AudioService.java
+│   │   │   │   │   ├── GameService.java
+│   │   │   │   │   ├── LeaderboardService.java
+│   │   │   │   │   └── ProfileService.java
+│   │   │   │   └── utils/
+│   │   │   │       ├── AvatarUtils.java
+│   │   │   │       ├── Constants.java
+│   │   │   │       ├── ImageUtils.java
+│   │   │   │       └── SoundUtils.java
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   ├── layout/
+│   │   │   │   ├── mipmap/
+│   │   │   │   ├── raw/
+│   │   │   │   ├── values/
+│   │   │   │   └── xml/
+│   │   │   └── AndroidManifest.xml
+│   │   └── test/
+│   └── androidTest/
+├── build.gradle
+└── proguard-rules.pro
+```
